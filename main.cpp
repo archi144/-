@@ -1,13 +1,12 @@
 #include <iostream>
-#include <golf.h>
+#include <bank.h>
 using namespace std;
 
 
 
 int main()
 {
-    golf a;
-    setgolf(a,"Arthur",5);
-    showgolf(a);
+    Bank Gregg("Gregg","111025125");
+    Gregg.showInfo();
     return 0;
 }
